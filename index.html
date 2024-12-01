@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+      }
+      a {
+        text-decoration: none;
+        color: black;
+      }
+      .navbar {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        margin: auto;
+        position: sticky;
+        top: 1px;
+        z-index: 1;
+        background-color: white;
+        box-shadow: 0px 0px 5px black;
+        gap: 125px;
+      }
+      .nav1_2 {
+        display: flex;
+        justify-content: space-evenly;
+
+        flex-wrap: wrap;
+      }
+      .Projects {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+        width: 90vw;
+        margin: auto;
+        justify-items: center;
+      }
+      .Projects div img {
+        width: 320px;
+        height: 80%;
+      }
+      .house {
+        position: relative;
+      }
+      .house h1 {
+        position: absolute;
+        top: -10px;
+        color: white;
+        background-color: black;
+        font-size: medium;
+        padding: 5px;
+      }
+      .About {
+        width: 90vw;
+        margin: auto;
+      }
+      .About1 {
+        display: flex;
+        gap: 25px;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+      .About1 img {
+        width: 320px;
+      }
+      .About1 .house {
+        width: 320px;
+      }
+      .About1 button {
+        width: 100%;
+        background-color: rgba(128, 128, 128, 0.15);
+        padding: 10px;
+        border-color: transparent;
+        font-size: large;
+      }
+      button:hover {
+        background-color: gray;
+        cursor: pointer;
+      }
+      form {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+        width: 90vw;
+        margin: auto;
+      }
+      input {
+        height: 30px;
+      }
+
+      form button {
+        width: 125px;
+        color: white;
+        background-color: black;
+        padding: 5px;
+        border-color: transparent;
+      }
+      .Footer {
+        background-color: black;
+        color: white;
+        padding: 15px;
+        text-align: center;
+        margin-top: 5px;
+      }
+      .navbar p:hover,
+      li a:hover {
+        background-color: rgba(128, 128, 128, 0.338);
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="navbar">
+      <p><strong>SV</strong>&nbsp;&nbsp;BUILDERS</p>
+      <ul style="display: flex; gap: 10px; list-style: none; flex-wrap: wrap">
+        <li><a href="#projects">PROJECTS</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+    </div>
+    <div style="position: relative; display: flex; justify-content: center">
+      <img
+        style="width: 90vw"
+        src="https://images.unsplash.com/photo-1449157291145-7efd050a4d0e?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGNpdHklMjB3YWxscGFwZXJ8ZW58MHx8MHx8fDA%3D"
+        alt=""
+      />
+      <p style="position: absolute; top: 38%; left: 48%; font-size: 130%">
+        <strong>SV</strong>&nbsp;&nbsp;&nbsp;BUILDERS
+      </p>
+    </div>
+    <div style="margin-left: 5%" id="projects">
+      <h1>PROJECTS</h1>
+    </div>
+    <div class="Projects">
+      <div class="house">
+        <img
+          src="https://c4.wallpaperflare.com/wallpaper/570/344/991/superb-summer-house-wallpaper-preview.jpg"
+        />
+        <h1>Summer House</h1>
+      </div>
+      <div class="house">
+        <img
+          src="https://www.2-10.com/wp-content/uploads/2019/06/brick-house-blog.jpg"
+        />
+        <h1>Brick House</h1>
+      </div>
+      <div class="house">
+        <img
+          src="https://s3da-design.com/wp-content/uploads/2022/01/Home-Renovation-3.jpg"
+        />
+        <h1>Renovated</h1>
+      </div>
+      <div class="house">
+        <img src="https://www.w3schools.com/w3images/house5.jpg" />
+        <h1>Summer House</h1>
+      </div>
+      <div class="house">
+        <img src="https://www.w3schools.com/w3images/house2.jpg" />
+        <h1>Brick House</h1>
+      </div>
+      <div class="house">
+        <img src="https://www.w3schools.com/w3images/house3.jpg" />
+        <h1>Renovated</h1>
+      </div>
+      <div class="house">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTErDL1tl6xeGFzwxM6VOvUyBIjapS7czYdag&s"
+        />
+        <h1>Summer House</h1>
+      </div>
+      <div class="house">
+        <img
+          src="https://cdn11.bigcommerce.com/s-g95xg0y1db/images/stencil/1280x1280/p/country-cottage-woodall-3-front-exterior__99723.original.jpg"
+        />
+        <h1>Brick House</h1>
+      </div>
+    </div>
+    <div style="margin-left: 5%" id="about">
+      <h1>ABOUT</h1>
+    </div>
+    <div class="About">
+      <p style="text-align: justify">
+        An architect is a person who plans, designs, and oversees the
+        construction of buildings. To practice architecture means to provide
+        services in connection with the design of buildings and the space within
+        the site surrounding the buildings that have human occupancy or use as
+        their principal purpose. Etymologically, the term architect derives from
+        the Latin architectus, which derives from the Greek (arkhi-, chief +
+        tekton, builder), i.e., chief builder. The professional requirements for
+        architects vary from location to location. An architect's decisions
+        affect public safety, and thus the architect must undergo specialised
+        training consisting of advanced education and a practicum (or
+        internship) for practical experience to earn a license to practice
+        architecture. Practical, technical, and academic requirements for
+        becoming an architect vary by jurisdiction though the formal study of
+        architecture in academic institutions has played a pivotal role in the
+        development of the profession.
+      </p>
+    </div>
+    <div class="About1">
+      <div class="house">
+        <img
+          src="https://cdn.prod.website-files.com/65e7fe03df078ced9b52142e/6604715c04d3c6a3d90e8e72_Charles%20Correa.jpeg"
+        />
+        <p>Charles Correa</p>
+        <p>CEO & Founder</p>
+        <p style="text-align: justify">
+          Charles Correa, a Roman Catholic of Goan descent, was born on 1
+          September 1930 in Secunderabad. He began his higher studies at St.
+          Xavier's College, Mumbai. He went on to study at the University of
+          Michigan (1949–53) where Buckminster Fuller was a teacher, and the
+          Massachusetts Institute of Technology (1953–55) where he obtained his
+          master's degree.
+          <button>Contact</button>
+        </p>
+      </div>
+
+      <div class="house">
+        <img
+          src="https://cdn.prod.website-files.com/65e7fe03df078ced9b52142e/66047b7aa1a72ef52d2789c8_BV%20Doshi.jpeg"
+        />
+        <p>B.V. Doshi</p>
+        <p>CEO & Founder</p>
+        <p style="text-align: justify">
+          Balkrishna Vithaldas Doshi OAL (26 August 1927 – 24 January 2023) was
+          an Indian architect.He is an important figure in Indian architecture
+          and noted for his contributions to the evolution of architectural
+          discourse in India. Having worked under Le Corbusier and Louis Kahn,
+          he was a pioneer of India.
+        </p>
+        <button>Contact</button>
+      </div>
+      <div class="house">
+        <img
+          src="https://cdn.prod.website-files.com/65e7fe03df078ced9b52142e/65e80a35591719142d2e7637_poster-1-1024x768.jpeg"
+        />
+        <p>Raj Rewal</p>
+        <p>CEO & Founder</p>
+        <p style="text-align: justify">
+          Rewal lived in Delhi and Shimla from 1934 to 1951. He attended
+          Harcourt Butler higher secondary school. From 1951 and 1954, he
+          attended the Delhi School of Architecture in New Delhi. After
+          completing a degree in architecture in New Delhi, he moved to London
+          in 1955 where he lived until 1961.
+        </p>
+        <button>Contact</button>
+      </div>
+      <div class="house">
+        <img
+          src="https://cdn.prod.website-files.com/65e7fe03df078ced9b52142e/65e80a47fe6de1c5c993c256_poster-1024x768.jpeg"
+        />
+        <p>Hafeez Sorab Contractor</p>
+        <p>CEO & Founder</p>
+        <p style="text-align: justify">
+          Hafeez Sorab Contractor (born 1950) is an Indian architect. He has
+          designed many skyscrapers in India, primarily in the city of Mumbai.
+          As of 2019, he is the architect of the three tallest buildings in
+          India – The 42 in Kolkata, and the twin towers of The Imperial in
+          Mumbai. He was awarded the Padma Bhushan .
+        </p>
+        <button>Contact</button>
+      </div>
+    </div>
+    <div style="margin-left: 5%" id="contact">
+      <h1>Contact</h1>
+      <p>Lets get in touch and talk about your next project.</p>
+    </div>
+    <form>
+      <input type="text" placeholder="Name" /><input
+        type="text"
+        placeholder="Mail"
+      />
+      <input type="text" placeholder="Subject" /><input
+        type="text"
+        placeholder="comment"
+      />
+      <button>SEND MESSAGE</button>
+    </form>
+    <div style="display: flex; justify-content: center; margin-top: 20px">
+      <img
+        style="width: 90vw"
+        src="https://www.w3schools.com/w3images/map.jpg"
+        alt=""
+      />
+    </div>
+    <div class="Footer">
+      <p>Powered by A. SHYAM VENKAT SAI</p>
+    </div>
+  </body>
+</html>
